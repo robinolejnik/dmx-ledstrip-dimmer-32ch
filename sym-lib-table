@@ -1,0 +1,3 @@
+(sym_lib_table
+    (lib (name archive)(type Legacy)(uri "${KIPRJMOD}/dmx_led_strip_dimmer_32ch-archive.lib")(options "")(descr ""))
+)

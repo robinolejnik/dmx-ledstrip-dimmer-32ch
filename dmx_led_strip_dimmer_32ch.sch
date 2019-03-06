@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74HC04 U5
+L archive:74xx_74HC04 U5
 U 3 1 591C8AFE
 P 9550 1000
 F 0 "U5" H 9700 1100 50  0000 C CNN
@@ -64,7 +64,7 @@ Entry Wire Line
 Entry Wire Line
 	10400 750  10500 650 
 $Comp
-L 74xx:74HC04 U5
+L archive:74xx_74HC04 U5
 U 4 1 5976CCC7
 P 9550 1700
 F 0 "U5" H 9700 1800 50  0000 C CNN
@@ -77,7 +77,7 @@ $EndComp
 Entry Wire Line
 	10400 1450 10500 1350
 $Comp
-L 74xx:74HC04 U5
+L archive:74xx_74HC04 U5
 U 5 1 5976CDC0
 P 9550 2450
 F 0 "U5" H 9700 2550 50  0000 C CNN
@@ -90,7 +90,7 @@ $EndComp
 Entry Wire Line
 	10400 2200 10500 2100
 $Comp
-L 74xx:74HC04 U5
+L archive:74xx_74HC04 U5
 U 6 1 5976D0C0
 P 9550 3150
 F 0 "U5" H 9700 3250 50  0000 C CNN
@@ -103,7 +103,7 @@ $EndComp
 Entry Wire Line
 	10400 2900 10500 2800
 $Comp
-L 74xx:74HC04 U6
+L archive:74xx_74HC04 U6
 U 1 1 5976D1AD
 P 9550 3850
 F 0 "U6" H 9700 3950 50  0000 C CNN
@@ -116,7 +116,7 @@ $EndComp
 Entry Wire Line
 	10400 3600 10500 3500
 $Comp
-L 74xx:74HC04 U6
+L archive:74xx_74HC04 U6
 U 2 1 5976D6DC
 P 9550 4550
 F 0 "U6" H 9700 4650 50  0000 C CNN
@@ -129,7 +129,7 @@ $EndComp
 Entry Wire Line
 	10400 4300 10500 4200
 $Comp
-L 74xx:74HC04 U6
+L archive:74xx_74HC04 U6
 U 3 1 5976DAD1
 P 9550 5250
 F 0 "U6" H 9700 5350 50  0000 C CNN
@@ -142,7 +142,7 @@ $EndComp
 Entry Wire Line
 	10400 5000 10500 4900
 $Comp
-L power:GND #PWR01
+L archive:power_GND #PWR01
 U 1 1 5976DAE1
 P 10350 5500
 F 0 "#PWR01" H 10350 5250 50  0001 C CNN
@@ -153,7 +153,7 @@ F 3 "" H 10350 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U6
+L archive:74xx_74HC04 U6
 U 4 1 5976E63E
 P 9550 5950
 F 0 "U6" H 9700 6050 50  0000 C CNN
@@ -166,7 +166,7 @@ $EndComp
 Entry Wire Line
 	10400 5700 10500 5600
 $Comp
-L power:GND #PWR02
+L archive:power_GND #PWR02
 U 1 1 5976E64E
 P 10350 6200
 F 0 "#PWR02" H 10350 5950 50  0001 C CNN
@@ -215,7 +215,7 @@ Entry Wire Line
 Entry Wire Line
 	10500 3050 10600 3150
 $Comp
-L Device:R R9
+L archive:Device_R R9
 U 1 1 597A427A
 P 9050 1500
 F 0 "R9" V 9130 1500 50  0000 C CNN
@@ -240,7 +240,7 @@ Entry Wire Line
 Entry Wire Line
 	8900 6050 9000 5950
 $Comp
-L power:VCC #PWR03
+L archive:power_VCC #PWR03
 U 1 1 597B40B0
 P 9050 1300
 F 0 "#PWR03" H 9050 1150 50  0001 C CNN
@@ -251,7 +251,7 @@ F 3 "" H 9050 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L archive:Device_R R13
 U 1 1 597B4602
 P 9050 2250
 F 0 "R13" V 9130 2250 50  0000 C CNN
@@ -262,7 +262,7 @@ F 3 "" H 9050 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R17
+L archive:Device_R R17
 U 1 1 597B4E37
 P 9050 2950
 F 0 "R17" V 9130 2950 50  0000 C CNN
@@ -273,7 +273,7 @@ F 3 "" H 9050 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R21
+L archive:Device_R R21
 U 1 1 597B52E7
 P 9050 3650
 F 0 "R21" V 9130 3650 50  0000 C CNN
@@ -284,7 +284,7 @@ F 3 "" H 9050 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R26
+L archive:Device_R R26
 U 1 1 597B5B04
 P 9050 4350
 F 0 "R26" V 9130 4350 50  0000 C CNN
@@ -295,7 +295,7 @@ F 3 "" H 9050 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R30
+L archive:Device_R R30
 U 1 1 597B634E
 P 9050 5050
 F 0 "R30" V 9130 5050 50  0000 C CNN
@@ -306,7 +306,7 @@ F 3 "" H 9050 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R34
+L archive:Device_R R34
 U 1 1 597B6767
 P 9050 5750
 F 0 "R34" V 9130 5750 50  0000 C CNN
@@ -317,7 +317,7 @@ F 3 "" H 9050 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR04
+L archive:power_VCC #PWR04
 U 1 1 597B9739
 P 9050 2050
 F 0 "#PWR04" H 9050 1900 50  0001 C CNN
@@ -328,7 +328,7 @@ F 3 "" H 9050 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR05
+L archive:power_VCC #PWR05
 U 1 1 597B9EC4
 P 9050 2750
 F 0 "#PWR05" H 9050 2600 50  0001 C CNN
@@ -339,7 +339,7 @@ F 3 "" H 9050 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR06
+L archive:power_VCC #PWR06
 U 1 1 597BA0DF
 P 9050 3450
 F 0 "#PWR06" H 9050 3300 50  0001 C CNN
@@ -350,7 +350,7 @@ F 3 "" H 9050 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR07
+L archive:power_VCC #PWR07
 U 1 1 597BA5FA
 P 9050 4150
 F 0 "#PWR07" H 9050 4000 50  0001 C CNN
@@ -361,7 +361,7 @@ F 3 "" H 9050 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR08
+L archive:power_VCC #PWR08
 U 1 1 597BA695
 P 9050 4850
 F 0 "#PWR08" H 9050 4700 50  0001 C CNN
@@ -372,7 +372,7 @@ F 3 "" H 9050 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR09
+L archive:power_VCC #PWR09
 U 1 1 597BACA0
 P 9050 5550
 F 0 "#PWR09" H 9050 5400 50  0001 C CNN
@@ -383,7 +383,7 @@ F 3 "" H 9050 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U4
+L archive:74xx_74HC04 U4
 U 1 1 597BE213
 P 7900 1000
 F 0 "U4" H 8050 1100 50  0000 C CNN
@@ -396,7 +396,7 @@ $EndComp
 Entry Wire Line
 	8750 750  8850 650 
 $Comp
-L 74xx:74HC04 U4
+L archive:74xx_74HC04 U4
 U 2 1 597BE226
 P 7900 1700
 F 0 "U4" H 8050 1800 50  0000 C CNN
@@ -409,7 +409,7 @@ $EndComp
 Entry Wire Line
 	8750 1450 8850 1350
 $Comp
-L 74xx:74HC04 U4
+L archive:74xx_74HC04 U4
 U 3 1 597BE239
 P 7900 2450
 F 0 "U4" H 8050 2550 50  0000 C CNN
@@ -422,7 +422,7 @@ $EndComp
 Entry Wire Line
 	8750 2200 8850 2100
 $Comp
-L 74xx:74HC04 U4
+L archive:74xx_74HC04 U4
 U 4 1 597BE24C
 P 7900 3150
 F 0 "U4" H 8050 3250 50  0000 C CNN
@@ -435,7 +435,7 @@ $EndComp
 Entry Wire Line
 	8750 2900 8850 2800
 $Comp
-L 74xx:74HC04 U4
+L archive:74xx_74HC04 U4
 U 5 1 597BE25F
 P 7900 3850
 F 0 "U4" H 8050 3950 50  0000 C CNN
@@ -448,7 +448,7 @@ $EndComp
 Entry Wire Line
 	8750 3600 8850 3500
 $Comp
-L 74xx:74HC04 U4
+L archive:74xx_74HC04 U4
 U 6 1 597BE272
 P 7900 4550
 F 0 "U4" H 8050 4650 50  0000 C CNN
@@ -461,7 +461,7 @@ $EndComp
 Entry Wire Line
 	8750 4300 8850 4200
 $Comp
-L 74xx:74HC04 U5
+L archive:74xx_74HC04 U5
 U 1 1 597BE285
 P 7900 5250
 F 0 "U5" H 8050 5350 50  0000 C CNN
@@ -474,7 +474,7 @@ $EndComp
 Entry Wire Line
 	8750 5000 8850 4900
 $Comp
-L 74xx:74HC04 U5
+L archive:74xx_74HC04 U5
 U 2 1 597BE298
 P 7900 5950
 F 0 "U5" H 8050 6050 50  0000 C CNN
@@ -487,7 +487,7 @@ $EndComp
 Entry Wire Line
 	8750 5700 8850 5600
 $Comp
-L power:GND #PWR010
+L archive:power_GND #PWR010
 U 1 1 597BE2A5
 P 8700 6200
 F 0 "#PWR010" H 8700 5950 50  0001 C CNN
@@ -500,7 +500,7 @@ $EndComp
 Entry Wire Line
 	7250 1100 7350 1000
 $Comp
-L Device:R R8
+L archive:Device_R R8
 U 1 1 597BE2AC
 P 7400 1500
 F 0 "R8" V 7480 1500 50  0000 C CNN
@@ -525,7 +525,7 @@ Entry Wire Line
 Entry Wire Line
 	7250 6050 7350 5950
 $Comp
-L power:VCC #PWR011
+L archive:power_VCC #PWR011
 U 1 1 597BE2E4
 P 7400 1300
 F 0 "#PWR011" H 7400 1150 50  0001 C CNN
@@ -536,7 +536,7 @@ F 3 "" H 7400 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L archive:Device_R R12
 U 1 1 597BE2EA
 P 7400 2250
 F 0 "R12" V 7480 2250 50  0000 C CNN
@@ -547,7 +547,7 @@ F 3 "" H 7400 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R16
+L archive:Device_R R16
 U 1 1 597BE2F0
 P 7400 2950
 F 0 "R16" V 7480 2950 50  0000 C CNN
@@ -558,7 +558,7 @@ F 3 "" H 7400 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R20
+L archive:Device_R R20
 U 1 1 597BE2F6
 P 7400 3650
 F 0 "R20" V 7480 3650 50  0000 C CNN
@@ -569,7 +569,7 @@ F 3 "" H 7400 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R25
+L archive:Device_R R25
 U 1 1 597BE2FC
 P 7400 4350
 F 0 "R25" V 7480 4350 50  0000 C CNN
@@ -580,7 +580,7 @@ F 3 "" H 7400 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R29
+L archive:Device_R R29
 U 1 1 597BE302
 P 7400 5050
 F 0 "R29" V 7480 5050 50  0000 C CNN
@@ -591,7 +591,7 @@ F 3 "" H 7400 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R33
+L archive:Device_R R33
 U 1 1 597BE308
 P 7400 5750
 F 0 "R33" V 7480 5750 50  0000 C CNN
@@ -602,7 +602,7 @@ F 3 "" H 7400 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR012
+L archive:power_VCC #PWR012
 U 1 1 597BE31B
 P 7400 2050
 F 0 "#PWR012" H 7400 1900 50  0001 C CNN
@@ -613,7 +613,7 @@ F 3 "" H 7400 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR013
+L archive:power_VCC #PWR013
 U 1 1 597BE321
 P 7400 2750
 F 0 "#PWR013" H 7400 2600 50  0001 C CNN
@@ -624,7 +624,7 @@ F 3 "" H 7400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR014
+L archive:power_VCC #PWR014
 U 1 1 597BE327
 P 7400 3450
 F 0 "#PWR014" H 7400 3300 50  0001 C CNN
@@ -635,7 +635,7 @@ F 3 "" H 7400 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR015
+L archive:power_VCC #PWR015
 U 1 1 597BE32D
 P 7400 4150
 F 0 "#PWR015" H 7400 4000 50  0001 C CNN
@@ -646,7 +646,7 @@ F 3 "" H 7400 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR016
+L archive:power_VCC #PWR016
 U 1 1 597BE333
 P 7400 4850
 F 0 "#PWR016" H 7400 4700 50  0001 C CNN
@@ -657,7 +657,7 @@ F 3 "" H 7400 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR017
+L archive:power_VCC #PWR017
 U 1 1 597BE339
 P 7400 5550
 F 0 "#PWR017" H 7400 5400 50  0001 C CNN
@@ -668,7 +668,7 @@ F 3 "" H 7400 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U2
+L archive:74xx_74HC04 U2
 U 3 1 597BFBA4
 P 6250 1000
 F 0 "U2" H 6400 1100 50  0000 C CNN
@@ -681,7 +681,7 @@ $EndComp
 Entry Wire Line
 	7100 750  7200 650 
 $Comp
-L 74xx:74HC04 U2
+L archive:74xx_74HC04 U2
 U 4 1 597BFBB7
 P 6250 1700
 F 0 "U2" H 6400 1800 50  0000 C CNN
@@ -694,7 +694,7 @@ $EndComp
 Entry Wire Line
 	7100 1450 7200 1350
 $Comp
-L 74xx:74HC04 U2
+L archive:74xx_74HC04 U2
 U 5 1 597BFBCA
 P 6250 2450
 F 0 "U2" H 6400 2550 50  0000 C CNN
@@ -707,7 +707,7 @@ $EndComp
 Entry Wire Line
 	7100 2200 7200 2100
 $Comp
-L 74xx:74HC04 U2
+L archive:74xx_74HC04 U2
 U 6 1 597BFBDD
 P 6250 3150
 F 0 "U2" H 6400 3250 50  0000 C CNN
@@ -720,7 +720,7 @@ $EndComp
 Entry Wire Line
 	7100 2900 7200 2800
 $Comp
-L 74xx:74HC04 U3
+L archive:74xx_74HC04 U3
 U 1 1 597BFBF0
 P 6250 3850
 F 0 "U3" H 6400 3950 50  0000 C CNN
@@ -733,7 +733,7 @@ $EndComp
 Entry Wire Line
 	7100 3600 7200 3500
 $Comp
-L 74xx:74HC04 U3
+L archive:74xx_74HC04 U3
 U 2 1 597BFC03
 P 6250 4550
 F 0 "U3" H 6400 4650 50  0000 C CNN
@@ -746,7 +746,7 @@ $EndComp
 Entry Wire Line
 	7100 4300 7200 4200
 $Comp
-L 74xx:74HC04 U3
+L archive:74xx_74HC04 U3
 U 3 1 597BFC16
 P 6250 5250
 F 0 "U3" H 6400 5350 50  0000 C CNN
@@ -759,7 +759,7 @@ $EndComp
 Entry Wire Line
 	7100 5000 7200 4900
 $Comp
-L 74xx:74HC04 U3
+L archive:74xx_74HC04 U3
 U 4 1 597BFC29
 P 6250 5950
 F 0 "U3" H 6400 6050 50  0000 C CNN
@@ -774,7 +774,7 @@ Entry Wire Line
 Entry Wire Line
 	5600 1100 5700 1000
 $Comp
-L Device:R R7
+L archive:Device_R R7
 U 1 1 597BFC3D
 P 5750 1500
 F 0 "R7" V 5830 1500 50  0000 C CNN
@@ -799,7 +799,7 @@ Entry Wire Line
 Entry Wire Line
 	5600 6050 5700 5950
 $Comp
-L power:VCC #PWR018
+L archive:power_VCC #PWR018
 U 1 1 597BFC75
 P 5750 1300
 F 0 "#PWR018" H 5750 1150 50  0001 C CNN
@@ -810,7 +810,7 @@ F 3 "" H 5750 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R11
+L archive:Device_R R11
 U 1 1 597BFC7B
 P 5750 2250
 F 0 "R11" V 5830 2250 50  0000 C CNN
@@ -821,7 +821,7 @@ F 3 "" H 5750 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R15
+L archive:Device_R R15
 U 1 1 597BFC81
 P 5750 2950
 F 0 "R15" V 5830 2950 50  0000 C CNN
@@ -832,7 +832,7 @@ F 3 "" H 5750 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R19
+L archive:Device_R R19
 U 1 1 597BFC87
 P 5750 3650
 F 0 "R19" V 5830 3650 50  0000 C CNN
@@ -843,7 +843,7 @@ F 3 "" H 5750 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R24
+L archive:Device_R R24
 U 1 1 597BFC8D
 P 5750 4350
 F 0 "R24" V 5830 4350 50  0000 C CNN
@@ -854,7 +854,7 @@ F 3 "" H 5750 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R28
+L archive:Device_R R28
 U 1 1 597BFC93
 P 5750 5050
 F 0 "R28" V 5830 5050 50  0000 C CNN
@@ -865,7 +865,7 @@ F 3 "" H 5750 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R32
+L archive:Device_R R32
 U 1 1 597BFC99
 P 5750 5750
 F 0 "R32" V 5830 5750 50  0000 C CNN
@@ -876,7 +876,7 @@ F 3 "" H 5750 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR019
+L archive:power_VCC #PWR019
 U 1 1 597BFCAC
 P 5750 2050
 F 0 "#PWR019" H 5750 1900 50  0001 C CNN
@@ -887,7 +887,7 @@ F 3 "" H 5750 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR020
+L archive:power_VCC #PWR020
 U 1 1 597BFCB2
 P 5750 2750
 F 0 "#PWR020" H 5750 2600 50  0001 C CNN
@@ -898,7 +898,7 @@ F 3 "" H 5750 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR021
+L archive:power_VCC #PWR021
 U 1 1 597BFCB8
 P 5750 3450
 F 0 "#PWR021" H 5750 3300 50  0001 C CNN
@@ -909,7 +909,7 @@ F 3 "" H 5750 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR022
+L archive:power_VCC #PWR022
 U 1 1 597BFCBE
 P 5750 4150
 F 0 "#PWR022" H 5750 4000 50  0001 C CNN
@@ -920,7 +920,7 @@ F 3 "" H 5750 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR023
+L archive:power_VCC #PWR023
 U 1 1 597BFCC4
 P 5750 4850
 F 0 "#PWR023" H 5750 4700 50  0001 C CNN
@@ -931,7 +931,7 @@ F 3 "" H 5750 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR024
+L archive:power_VCC #PWR024
 U 1 1 597BFCCA
 P 5750 5550
 F 0 "#PWR024" H 5750 5400 50  0001 C CNN
@@ -942,7 +942,7 @@ F 3 "" H 5750 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U1
+L archive:74xx_74HC04 U1
 U 1 1 597C183F
 P 4600 1000
 F 0 "U1" H 4750 1100 50  0000 C CNN
@@ -955,7 +955,7 @@ $EndComp
 Entry Wire Line
 	5450 750  5550 650 
 $Comp
-L 74xx:74HC04 U1
+L archive:74xx_74HC04 U1
 U 2 1 597C1852
 P 4600 1700
 F 0 "U1" H 4750 1800 50  0000 C CNN
@@ -968,7 +968,7 @@ $EndComp
 Entry Wire Line
 	5450 1450 5550 1350
 $Comp
-L 74xx:74HC04 U1
+L archive:74xx_74HC04 U1
 U 3 1 597C1865
 P 4600 2450
 F 0 "U1" H 4750 2550 50  0000 C CNN
@@ -981,7 +981,7 @@ $EndComp
 Entry Wire Line
 	5450 2200 5550 2100
 $Comp
-L 74xx:74HC04 U1
+L archive:74xx_74HC04 U1
 U 4 1 597C1878
 P 4600 3150
 F 0 "U1" H 4750 3250 50  0000 C CNN
@@ -994,7 +994,7 @@ $EndComp
 Entry Wire Line
 	5450 2900 5550 2800
 $Comp
-L 74xx:74HC04 U1
+L archive:74xx_74HC04 U1
 U 5 1 597C188B
 P 4600 3850
 F 0 "U1" H 4750 3950 50  0000 C CNN
@@ -1007,7 +1007,7 @@ $EndComp
 Entry Wire Line
 	5450 3600 5550 3500
 $Comp
-L 74xx:74HC04 U1
+L archive:74xx_74HC04 U1
 U 6 1 597C189E
 P 4600 4550
 F 0 "U1" H 4750 4650 50  0000 C CNN
@@ -1020,7 +1020,7 @@ $EndComp
 Entry Wire Line
 	5450 4300 5550 4200
 $Comp
-L 74xx:74HC04 U2
+L archive:74xx_74HC04 U2
 U 1 1 597C18B1
 P 4600 5250
 F 0 "U2" H 4750 5350 50  0000 C CNN
@@ -1033,7 +1033,7 @@ $EndComp
 Entry Wire Line
 	5450 5000 5550 4900
 $Comp
-L 74xx:74HC04 U2
+L archive:74xx_74HC04 U2
 U 2 1 597C18C4
 P 4600 5950
 F 0 "U2" H 4750 6050 50  0000 C CNN
@@ -1046,7 +1046,7 @@ $EndComp
 Entry Wire Line
 	5450 5700 5550 5600
 $Comp
-L power:GND #PWR025
+L archive:power_GND #PWR025
 U 1 1 597C18D1
 P 5400 6200
 F 0 "#PWR025" H 5400 5950 50  0001 C CNN
@@ -1059,7 +1059,7 @@ $EndComp
 Entry Wire Line
 	3950 1100 4050 1000
 $Comp
-L Device:R R6
+L archive:Device_R R6
 U 1 1 597C18D8
 P 4100 1500
 F 0 "R6" V 4180 1500 50  0000 C CNN
@@ -1084,7 +1084,7 @@ Entry Wire Line
 Entry Wire Line
 	3950 6050 4050 5950
 $Comp
-L power:VCC #PWR026
+L archive:power_VCC #PWR026
 U 1 1 597C1910
 P 4100 1300
 F 0 "#PWR026" H 4100 1150 50  0001 C CNN
@@ -1095,7 +1095,7 @@ F 3 "" H 4100 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R10
+L archive:Device_R R10
 U 1 1 597C1916
 P 4100 2250
 F 0 "R10" V 4180 2250 50  0000 C CNN
@@ -1106,7 +1106,7 @@ F 3 "" H 4100 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R14
+L archive:Device_R R14
 U 1 1 597C191C
 P 4100 2950
 F 0 "R14" V 4180 2950 50  0000 C CNN
@@ -1117,7 +1117,7 @@ F 3 "" H 4100 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R18
+L archive:Device_R R18
 U 1 1 597C1922
 P 4100 3650
 F 0 "R18" V 4180 3650 50  0000 C CNN
@@ -1128,7 +1128,7 @@ F 3 "" H 4100 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R23
+L archive:Device_R R23
 U 1 1 597C1928
 P 4100 4350
 F 0 "R23" V 4180 4350 50  0000 C CNN
@@ -1139,7 +1139,7 @@ F 3 "" H 4100 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R27
+L archive:Device_R R27
 U 1 1 597C192E
 P 4100 5050
 F 0 "R27" V 4180 5050 50  0000 C CNN
@@ -1150,7 +1150,7 @@ F 3 "" H 4100 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R31
+L archive:Device_R R31
 U 1 1 597C1934
 P 4100 5750
 F 0 "R31" V 4180 5750 50  0000 C CNN
@@ -1161,7 +1161,7 @@ F 3 "" H 4100 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR027
+L archive:power_VCC #PWR027
 U 1 1 597C1947
 P 4100 2050
 F 0 "#PWR027" H 4100 1900 50  0001 C CNN
@@ -1172,7 +1172,7 @@ F 3 "" H 4100 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR028
+L archive:power_VCC #PWR028
 U 1 1 597C194D
 P 4100 2750
 F 0 "#PWR028" H 4100 2600 50  0001 C CNN
@@ -1183,7 +1183,7 @@ F 3 "" H 4100 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR029
+L archive:power_VCC #PWR029
 U 1 1 597C1953
 P 4100 3450
 F 0 "#PWR029" H 4100 3300 50  0001 C CNN
@@ -1194,7 +1194,7 @@ F 3 "" H 4100 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR030
+L archive:power_VCC #PWR030
 U 1 1 597C1959
 P 4100 4150
 F 0 "#PWR030" H 4100 4000 50  0001 C CNN
@@ -1205,7 +1205,7 @@ F 3 "" H 4100 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR031
+L archive:power_VCC #PWR031
 U 1 1 597C195F
 P 4100 4850
 F 0 "#PWR031" H 4100 4700 50  0001 C CNN
@@ -1216,7 +1216,7 @@ F 3 "" H 4100 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR032
+L archive:power_VCC #PWR032
 U 1 1 597C1965
 P 4100 5550
 F 0 "#PWR032" H 4100 5400 50  0001 C CNN
@@ -1259,7 +1259,7 @@ Entry Wire Line
 Entry Wire Line
 	3850 2500 3950 2600
 $Comp
-L power:GND #PWR033
+L archive:power_GND #PWR033
 U 1 1 597CC2A9
 P 2950 2900
 F 0 "#PWR033" H 2950 2650 50  0001 C CNN
@@ -1270,7 +1270,7 @@ F 3 "" H 2950 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR034
+L archive:power_VCC #PWR034
 U 1 1 597CC5B3
 P 3050 3100
 F 0 "#PWR034" H 3050 2950 50  0001 C CNN
@@ -1281,7 +1281,7 @@ F 3 "" H 3050 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR035
+L archive:power_VCC #PWR035
 U 1 1 597CE3B0
 P 3050 650
 F 0 "#PWR035" H 3050 500 50  0001 C CNN
@@ -1292,7 +1292,7 @@ F 3 "" H 3050 650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR036
+L archive:power_GND #PWR036
 U 1 1 597CF73A
 P 3050 5350
 F 0 "#PWR036" H 3050 5100 50  0001 C CNN
@@ -1335,7 +1335,7 @@ Entry Wire Line
 Entry Wire Line
 	3850 4950 3950 5050
 $Comp
-L Device:R R2
+L archive:Device_R R2
 U 1 1 597E25E4
 P 5950 750
 F 0 "R2" V 6030 750 50  0000 C CNN
@@ -1346,7 +1346,7 @@ F 3 "" H 5950 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VCC #PWR037
+L archive:power_VCC #PWR037
 U 1 1 597E27E6
 P 6150 700
 F 0 "#PWR037" H 6150 550 50  0001 C CNN
@@ -1357,7 +1357,7 @@ F 3 "" H 6150 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L archive:Device_R R1
 U 1 1 597E3480
 P 4300 750
 F 0 "R1" V 4380 750 50  0000 C CNN
@@ -1368,7 +1368,7 @@ F 3 "" H 4300 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VCC #PWR038
+L archive:power_VCC #PWR038
 U 1 1 597E3A32
 P 4500 700
 F 0 "#PWR038" H 4500 550 50  0001 C CNN
@@ -1379,7 +1379,7 @@ F 3 "" H 4500 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR039
+L archive:power_VCC #PWR039
 U 1 1 597E52A2
 P 7800 700
 F 0 "#PWR039" H 7800 550 50  0001 C CNN
@@ -1390,7 +1390,7 @@ F 3 "" H 7800 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L archive:Device_R R3
 U 1 1 597E5400
 P 7600 750
 F 0 "R3" V 7680 750 50  0000 C CNN
@@ -1401,7 +1401,7 @@ F 3 "" H 7600 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R4
+L archive:Device_R R4
 U 1 1 597E5FA6
 P 9250 750
 F 0 "R4" V 9330 750 50  0000 C CNN
@@ -1412,7 +1412,7 @@ F 3 "" H 9250 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VCC #PWR040
+L archive:power_VCC #PWR040
 U 1 1 597E614B
 P 9450 700
 F 0 "#PWR040" H 9450 550 50  0001 C CNN
@@ -1611,7 +1611,7 @@ L32
 Text Label 10400 5700 2    60   ~ 0
 L32
 $Comp
-L power:GND #PWR041
+L archive:power_GND #PWR041
 U 1 1 598551B1
 P 10350 4800
 F 0 "#PWR041" H 10350 4550 50  0001 C CNN
@@ -1622,7 +1622,7 @@ F 3 "" H 10350 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR042
+L archive:power_GND #PWR042
 U 1 1 59855879
 P 10350 4100
 F 0 "#PWR042" H 10350 3850 50  0001 C CNN
@@ -1633,7 +1633,7 @@ F 3 "" H 10350 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR043
+L archive:power_GND #PWR043
 U 1 1 5985658C
 P 10350 3400
 F 0 "#PWR043" H 10350 3150 50  0001 C CNN
@@ -1644,7 +1644,7 @@ F 3 "" H 10350 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR044
+L archive:power_GND #PWR044
 U 1 1 598566F0
 P 10350 2700
 F 0 "#PWR044" H 10350 2450 50  0001 C CNN
@@ -1655,7 +1655,7 @@ F 3 "" H 10350 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR045
+L archive:power_GND #PWR045
 U 1 1 59857150
 P 10350 1950
 F 0 "#PWR045" H 10350 1700 50  0001 C CNN
@@ -1666,7 +1666,7 @@ F 3 "" H 10350 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR046
+L archive:power_GND #PWR046
 U 1 1 598576BF
 P 10350 1250
 F 0 "#PWR046" H 10350 1000 50  0001 C CNN
@@ -1713,7 +1713,7 @@ L28
 Text Label 10400 2900 2    60   ~ 0
 L28
 $Comp
-L power:GND #PWR047
+L archive:power_GND #PWR047
 U 1 1 59873057
 P 8700 1250
 F 0 "#PWR047" H 8700 1000 50  0001 C CNN
@@ -1724,7 +1724,7 @@ F 3 "" H 8700 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR048
+L archive:power_GND #PWR048
 U 1 1 598731BB
 P 8700 1950
 F 0 "#PWR048" H 8700 1700 50  0001 C CNN
@@ -1735,7 +1735,7 @@ F 3 "" H 8700 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR049
+L archive:power_GND #PWR049
 U 1 1 5987331F
 P 8700 2700
 F 0 "#PWR049" H 8700 2450 50  0001 C CNN
@@ -1746,7 +1746,7 @@ F 3 "" H 8700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR050
+L archive:power_GND #PWR050
 U 1 1 59873483
 P 8700 3400
 F 0 "#PWR050" H 8700 3150 50  0001 C CNN
@@ -1757,7 +1757,7 @@ F 3 "" H 8700 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR051
+L archive:power_GND #PWR051
 U 1 1 59875964
 P 8700 4100
 F 0 "#PWR051" H 8700 3850 50  0001 C CNN
@@ -1768,7 +1768,7 @@ F 3 "" H 8700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR052
+L archive:power_GND #PWR052
 U 1 1 59875AC8
 P 8700 4800
 F 0 "#PWR052" H 8700 4550 50  0001 C CNN
@@ -1779,7 +1779,7 @@ F 3 "" H 8700 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR053
+L archive:power_GND #PWR053
 U 1 1 59875C2C
 P 8700 5500
 F 0 "#PWR053" H 8700 5250 50  0001 C CNN
@@ -1798,7 +1798,7 @@ L18
 Text Label 8750 750  2    60   ~ 0
 L17
 $Comp
-L power:GND #PWR054
+L archive:power_GND #PWR054
 U 1 1 597BFC36
 P 7050 6200
 F 0 "#PWR054" H 7050 5950 50  0001 C CNN
@@ -1809,7 +1809,7 @@ F 3 "" H 7050 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR055
+L archive:power_GND #PWR055
 U 1 1 5988B31A
 P 7050 5500
 F 0 "#PWR055" H 7050 5250 50  0001 C CNN
@@ -1820,7 +1820,7 @@ F 3 "" H 7050 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR056
+L archive:power_GND #PWR056
 U 1 1 5988B47E
 P 7050 4800
 F 0 "#PWR056" H 7050 4550 50  0001 C CNN
@@ -1831,7 +1831,7 @@ F 3 "" H 7050 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR057
+L archive:power_GND #PWR057
 U 1 1 59890B3C
 P 7050 4100
 F 0 "#PWR057" H 7050 3850 50  0001 C CNN
@@ -1842,7 +1842,7 @@ F 3 "" H 7050 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR058
+L archive:power_GND #PWR058
 U 1 1 598985EA
 P 7050 3400
 F 0 "#PWR058" H 7050 3150 50  0001 C CNN
@@ -1853,7 +1853,7 @@ F 3 "" H 7050 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR059
+L archive:power_GND #PWR059
 U 1 1 5989874E
 P 7050 2700
 F 0 "#PWR059" H 7050 2450 50  0001 C CNN
@@ -1864,7 +1864,7 @@ F 3 "" H 7050 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR060
+L archive:power_GND #PWR060
 U 1 1 598988B2
 P 7050 1950
 F 0 "#PWR060" H 7050 1700 50  0001 C CNN
@@ -1875,7 +1875,7 @@ F 3 "" H 7050 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR061
+L archive:power_GND #PWR061
 U 1 1 5989B5A9
 P 7050 1250
 F 0 "#PWR061" H 7050 1000 50  0001 C CNN
@@ -1918,7 +1918,7 @@ L07
 Text Label 5450 5700 2    60   ~ 0
 L08
 $Comp
-L power:GND #PWR062
+L archive:power_GND #PWR062
 U 1 1 598BDE8F
 P 5400 1250
 F 0 "#PWR062" H 5400 1000 50  0001 C CNN
@@ -1929,7 +1929,7 @@ F 3 "" H 5400 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR063
+L archive:power_GND #PWR063
 U 1 1 598BDFF3
 P 5400 1950
 F 0 "#PWR063" H 5400 1700 50  0001 C CNN
@@ -1940,7 +1940,7 @@ F 3 "" H 5400 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR064
+L archive:power_GND #PWR064
 U 1 1 598BE157
 P 5400 2700
 F 0 "#PWR064" H 5400 2450 50  0001 C CNN
@@ -1951,7 +1951,7 @@ F 3 "" H 5400 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR065
+L archive:power_GND #PWR065
 U 1 1 598BE3A3
 P 5400 3400
 F 0 "#PWR065" H 5400 3150 50  0001 C CNN
@@ -1962,7 +1962,7 @@ F 3 "" H 5400 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR066
+L archive:power_GND #PWR066
 U 1 1 598BE507
 P 5400 4100
 F 0 "#PWR066" H 5400 3850 50  0001 C CNN
@@ -1973,7 +1973,7 @@ F 3 "" H 5400 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR067
+L archive:power_GND #PWR067
 U 1 1 598C17E1
 P 5400 4800
 F 0 "#PWR067" H 5400 4550 50  0001 C CNN
@@ -1984,7 +1984,7 @@ F 3 "" H 5400 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR068
+L archive:power_GND #PWR068
 U 1 1 598C1945
 P 5400 5500
 F 0 "#PWR068" H 5400 5250 50  0001 C CNN
@@ -2012,7 +2012,7 @@ Text GLabel 2250 4750 0    50   Input ~ 0
 SCLK
 NoConn ~ 2350 4950
 $Comp
-L Device:R R5
+L archive:Device_R R5
 U 1 1 598E31CE
 P 1800 1300
 F 0 "R5" V 1880 1300 50  0000 C CNN
@@ -2023,7 +2023,7 @@ F 3 "" H 1800 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R22
+L archive:Device_R R22
 U 1 1 598E3380
 P 1800 3750
 F 0 "R22" V 1880 3750 50  0000 C CNN
@@ -2034,7 +2034,7 @@ F 3 "" H 1800 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR069
+L archive:power_GND #PWR069
 U 1 1 598E7388
 P 1800 3950
 F 0 "#PWR069" H 1800 3700 50  0001 C CNN
@@ -2045,7 +2045,7 @@ F 3 "" H 1800 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR070
+L archive:power_GND #PWR070
 U 1 1 598EA49F
 P 1800 1500
 F 0 "#PWR070" H 1800 1250 50  0001 C CNN
@@ -2056,7 +2056,7 @@ F 3 "" H 1800 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR071
+L archive:power_VCC #PWR071
 U 1 1 5990BCD2
 P 3550 6150
 F 0 "#PWR071" H 3550 6000 50  0001 C CNN
@@ -2067,7 +2067,7 @@ F 3 "" H 3550 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR072
+L archive:power_GND #PWR072
 U 1 1 5990D381
 P 3550 7150
 F 0 "#PWR072" H 3550 6900 50  0001 C CNN
@@ -2094,7 +2094,7 @@ RS485
 Text GLabel 850  6500 0    50   Input ~ 0
 RS485
 $Comp
-L power:GND #PWR073
+L archive:power_GND #PWR073
 U 1 1 5980B95E
 P 2250 1000
 F 0 "#PWR073" H 2250 750 50  0001 C CNN
@@ -2105,7 +2105,7 @@ F 3 "" H 2250 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR074
+L archive:power_GND #PWR074
 U 1 1 5980BAAA
 P 2250 3450
 F 0 "#PWR074" H 2250 3200 50  0001 C CNN
@@ -2116,7 +2116,7 @@ F 3 "" H 2250 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VCC #PWR075
+L archive:power_VCC #PWR075
 U 1 1 5980EF6F
 P 2250 3650
 F 0 "#PWR075" H 2250 3500 50  0001 C CNN
@@ -2127,7 +2127,7 @@ F 3 "" H 2250 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VCC #PWR076
+L archive:power_VCC #PWR076
 U 1 1 598105B5
 P 2250 1200
 F 0 "#PWR076" H 2250 1050 50  0001 C CNN
@@ -2157,7 +2157,7 @@ NoConn ~ 2300 6500
 NoConn ~ 2300 6300
 NoConn ~ 900  7000
 $Comp
-L power:GND #PWR077
+L archive:power_GND #PWR077
 U 1 1 5981EBFC
 P 2350 6200
 F 0 "#PWR077" H 2350 5950 50  0001 C CNN
@@ -2168,7 +2168,7 @@ F 3 "" H 2350 6200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VCC #PWR078
+L archive:power_VCC #PWR078
 U 1 1 5981F822
 P 2350 6400
 F 0 "#PWR078" H 2350 6250 50  0001 C CNN
@@ -2179,7 +2179,7 @@ F 3 "" H 2350 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR079
+L archive:power_GND #PWR079
 U 1 1 59820FA6
 P 850 6400
 F 0 "#PWR079" H 850 6150 50  0001 C CNN
@@ -2192,7 +2192,7 @@ $EndComp
 Text GLabel 850  6600 0    50   Input ~ 0
 GSCLK
 $Comp
-L power:GND #PWR080
+L archive:power_GND #PWR080
 U 1 1 5983500A
 P 10700 6200
 F 0 "#PWR080" H 10700 5950 50  0001 C CNN
@@ -2203,7 +2203,7 @@ F 3 "" H 10700 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR081
+L archive:power_+12V #PWR081
 U 1 1 5983CAD4
 P 10950 5500
 F 0 "#PWR081" H 10950 5350 50  0001 C CNN
@@ -2214,7 +2214,7 @@ F 3 "" H 10950 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L archive:Device_C C6
 U 1 1 598E24C1
 P 1600 850
 F 0 "C6" H 1625 950 50  0000 L CNN
@@ -2225,7 +2225,7 @@ F 3 "" H 1600 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L archive:Device_C C7
 U 1 1 598E3FA9
 P 800 1650
 F 0 "C7" H 825 1750 50  0000 L CNN
@@ -2236,7 +2236,7 @@ F 3 "" H 800 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L archive:Device_C C8
 U 1 1 598E410B
 P 1000 1650
 F 0 "C8" H 1025 1750 50  0000 L CNN
@@ -2247,7 +2247,7 @@ F 3 "" H 1000 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L archive:Device_C C9
 U 1 1 598E45EC
 P 1200 1650
 F 0 "C9" H 1225 1750 50  0000 L CNN
@@ -2258,7 +2258,7 @@ F 3 "" H 1200 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L archive:Device_C C10
 U 1 1 598E4750
 P 1400 1650
 F 0 "C10" H 1425 1750 50  0000 L CNN
@@ -2269,7 +2269,7 @@ F 3 "" H 1400 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR082
+L archive:power_GND #PWR082
 U 1 1 598E7FA3
 P 1000 1900
 F 0 "#PWR082" H 1000 1650 50  0001 C CNN
@@ -2280,7 +2280,7 @@ F 3 "" H 1000 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR083
+L archive:power_VCC #PWR083
 U 1 1 598E9A15
 P 1000 1400
 F 0 "#PWR083" H 1000 1250 50  0001 C CNN
@@ -2291,7 +2291,7 @@ F 3 "" H 1000 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L archive:Device_C C1
 U 1 1 598EAA21
 P 600 850
 F 0 "C1" H 625 950 50  0000 L CNN
@@ -2302,7 +2302,7 @@ F 3 "" H 600 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L archive:Device_C C2
 U 1 1 598EAA27
 P 800 850
 F 0 "C2" H 825 950 50  0000 L CNN
@@ -2313,7 +2313,7 @@ F 3 "" H 800 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L archive:Device_C C3
 U 1 1 598EAA2D
 P 1000 850
 F 0 "C3" H 1025 950 50  0000 L CNN
@@ -2324,7 +2324,7 @@ F 3 "" H 1000 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L archive:Device_C C4
 U 1 1 598EAA33
 P 1200 850
 F 0 "C4" H 1225 950 50  0000 L CNN
@@ -2335,7 +2335,7 @@ F 3 "" H 1200 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L archive:Device_C C5
 U 1 1 598EAA39
 P 1400 850
 F 0 "C5" H 1425 950 50  0000 L CNN
@@ -2346,7 +2346,7 @@ F 3 "" H 1400 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR084
+L archive:power_GND #PWR084
 U 1 1 598EAA3F
 P 1000 1100
 F 0 "#PWR084" H 1000 850 50  0001 C CNN
@@ -2357,7 +2357,7 @@ F 3 "" H 1000 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR085
+L archive:power_VCC #PWR085
 U 1 1 598EAA57
 P 1000 600
 F 0 "#PWR085" H 1000 450 50  0001 C CNN
@@ -2368,7 +2368,7 @@ F 3 "" H 1000 600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L archive:Device_C C11
 U 1 1 598EC769
 P 750 2850
 F 0 "C11" H 775 2950 50  0000 L CNN
@@ -2379,7 +2379,7 @@ F 3 "" H 750 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C15
+L archive:Device_C C15
 U 1 1 59946198
 P 1000 2850
 F 0 "C15" H 1025 2950 50  0000 L CNN
@@ -2390,7 +2390,7 @@ F 3 "" H 1000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L archive:Device_C C16
 U 1 1 59946324
 P 1800 2850
 F 0 "C16" H 1825 2950 50  0000 L CNN
@@ -2401,7 +2401,7 @@ F 3 "" H 1800 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR086
+L archive:power_GND #PWR086
 U 1 1 5994A38C
 P 1400 3100
 F 0 "#PWR086" H 1400 2850 50  0001 C CNN
@@ -2412,7 +2412,7 @@ F 3 "" H 1400 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR087
+L archive:power_VCC #PWR087
 U 1 1 5994A76A
 P 1800 2600
 F 0 "#PWR087" H 1800 2450 50  0001 C CNN
@@ -2423,7 +2423,7 @@ F 3 "" H 1800 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR088
+L archive:power_+12V #PWR088
 U 1 1 599674F0
 P 1000 2600
 F 0 "#PWR088" H 1000 2450 50  0001 C CNN
@@ -2434,7 +2434,7 @@ F 3 "" H 1000 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener D1
+L archive:Device_D_Zener D1
 U 1 1 59957947
 P 3950 7250
 F 0 "D1" H 3950 7350 50  0000 C CNN
@@ -2445,7 +2445,7 @@ F 3 "" H 3950 7250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D2
+L archive:Device_D_Zener D2
 U 1 1 59957B2B
 P 4250 7250
 F 0 "D2" H 4250 7350 50  0000 C CNN
@@ -2456,7 +2456,7 @@ F 3 "" H 4250 7250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP1
+L archive:Device_Jumper_NO_Small JP1
 U 1 1 59957C45
 P 4450 6750
 F 0 "JP1" H 4450 6830 50  0000 C CNN
@@ -2467,7 +2467,7 @@ F 3 "" H 4450 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R35
+L archive:Device_R R35
 U 1 1 599587E2
 P 4150 6750
 F 0 "R35" V 4230 6750 50  0000 C CNN
@@ -2478,7 +2478,7 @@ F 3 "" H 4150 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR089
+L archive:power_GND #PWR089
 U 1 1 5996C2E9
 P 1500 5350
 F 0 "#PWR089" H 1500 5100 50  0001 C CNN
@@ -3274,7 +3274,7 @@ Wire Wire Line
 	750  2650 1000 2650
 Connection ~ 1000 2650
 $Comp
-L power:PWR_FLAG #FLG090
+L archive:power_PWR_FLAG #FLG090
 U 1 1 59D91102
 P 750 2600
 F 0 "#FLG090" H 750 2675 50  0001 C CNN
@@ -3386,7 +3386,7 @@ Wire Wire Line
 Wire Wire Line
 	750  2650 750  2700
 $Comp
-L Driver_LED:TLC5940PWP U7
+L archive:Driver_LED_TLC5940PWP U7
 U 1 1 5C83FEAE
 P 3050 1700
 F 0 "U7" H 2600 2550 50  0000 C CNN
@@ -3397,7 +3397,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tlc5940.pdf" H 2650 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driver_LED:TLC5940PWP U8
+L archive:Driver_LED_TLC5940PWP U8
 U 1 1 5C840083
 P 3050 4150
 F 0 "U8" H 2600 5000 50  0000 C CNN
@@ -3536,7 +3536,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 4550 5950 4550
 $Comp
-L power:PWR_FLAG #FLG0101
+L archive:power_PWR_FLAG #FLG0101
 U 1 1 5DA5843C
 P 1150 5200
 F 0 "#FLG0101" H 1150 5275 50  0001 C CNN
@@ -3552,7 +3552,7 @@ Wire Wire Line
 	1150 5300 1350 5300
 Connection ~ 1350 5300
 $Comp
-L Interface_UART:SN75LBC176P U10
+L archive:Interface_UART_SN75LBC176P U10
 U 1 1 5DA9AEC8
 P 3550 6650
 F 0 "U10" H 3650 7000 50  0000 C CNN
@@ -3580,7 +3580,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 7150 3550 7050
 $Comp
-L power:GND #PWR0101
+L archive:power_GND #PWR0101
 U 1 1 5DCF8259
 P 4250 7500
 F 0 "#PWR0101" H 4250 7250 50  0001 C CNN
@@ -3591,7 +3591,7 @@ F 3 "" H 4250 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L archive:power_GND #PWR0102
 U 1 1 5DCF836A
 P 3950 7500
 F 0 "#PWR0102" H 3950 7250 50  0001 C CNN
@@ -3602,7 +3602,7 @@ F 3 "" H 3950 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0103
+L archive:power_GND #PWR0103
 U 1 1 5DCF847B
 P 4550 7500
 F 0 "#PWR0103" H 4550 7250 50  0001 C CNN
@@ -3641,7 +3641,7 @@ Connection ~ 1500 5300
 Wire Wire Line
 	1500 5300 1500 5350
 $Comp
-L Transistor_FET:IRLZ44N Q1
+L archive:Transistor_FET_IRLZ44N Q1
 U 1 1 5DFFC136
 P 5300 1000
 F 0 "Q1" H 4950 1200 50  0000 L CNN
@@ -3652,7 +3652,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 5300 1000 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q5
+L archive:Transistor_FET_IRLZ44N Q5
 U 1 1 5DFFE568
 P 5300 1700
 F 0 "Q5" H 4950 1900 50  0000 L CNN
@@ -3663,7 +3663,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 5300 1700 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q9
+L archive:Transistor_FET_IRLZ44N Q9
 U 1 1 5DFFE65C
 P 5300 2450
 F 0 "Q9" H 4950 2650 50  0000 L CNN
@@ -3674,7 +3674,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 5300 2450 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q13
+L archive:Transistor_FET_IRLZ44N Q13
 U 1 1 5DFFE760
 P 5300 3150
 F 0 "Q13" H 4950 3350 50  0000 L CNN
@@ -3685,7 +3685,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 5300 3150 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q14
+L archive:Transistor_FET_IRLZ44N Q14
 U 1 1 5DFFE86A
 P 6950 3150
 F 0 "Q14" H 6600 3350 50  0000 L CNN
@@ -3696,7 +3696,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 6950 3150 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q10
+L archive:Transistor_FET_IRLZ44N Q10
 U 1 1 5DFFE986
 P 6950 2450
 F 0 "Q10" H 6600 2650 50  0000 L CNN
@@ -3707,7 +3707,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 6950 2450 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q6
+L archive:Transistor_FET_IRLZ44N Q6
 U 1 1 5DFFEBD5
 P 6950 1700
 F 0 "Q6" H 6600 1900 50  0000 L CNN
@@ -3718,7 +3718,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 6950 1700 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q2
+L archive:Transistor_FET_IRLZ44N Q2
 U 1 1 5DFFECDF
 P 6950 1000
 F 0 "Q2" H 6600 1200 50  0000 L CNN
@@ -3729,7 +3729,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 6950 1000 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q3
+L archive:Transistor_FET_IRLZ44N Q3
 U 1 1 5DFFEDE1
 P 8600 1000
 F 0 "Q3" H 8250 1200 50  0000 L CNN
@@ -3740,7 +3740,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 8600 1000 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q7
+L archive:Transistor_FET_IRLZ44N Q7
 U 1 1 5DFFEF0F
 P 8600 1700
 F 0 "Q7" H 8250 1900 50  0000 L CNN
@@ -3751,7 +3751,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 8600 1700 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q11
+L archive:Transistor_FET_IRLZ44N Q11
 U 1 1 5DFFF017
 P 8600 2450
 F 0 "Q11" H 8250 2650 50  0000 L CNN
@@ -3762,7 +3762,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 8600 2450 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q15
+L archive:Transistor_FET_IRLZ44N Q15
 U 1 1 5DFFF121
 P 8600 3150
 F 0 "Q15" H 8250 3350 50  0000 L CNN
@@ -3773,7 +3773,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 8600 3150 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q19
+L archive:Transistor_FET_IRLZ44N Q19
 U 1 1 5DFFF23D
 P 8600 3850
 F 0 "Q19" H 8250 4050 50  0000 L CNN
@@ -3784,7 +3784,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 8600 3850 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q16
+L archive:Transistor_FET_IRLZ44N Q16
 U 1 1 5DFFF34B
 P 10250 3150
 F 0 "Q16" H 9900 3350 50  0000 L CNN
@@ -3795,7 +3795,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 10250 3150 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q12
+L archive:Transistor_FET_IRLZ44N Q12
 U 1 1 5DFFF483
 P 10250 2450
 F 0 "Q12" H 9900 2650 50  0000 L CNN
@@ -3806,7 +3806,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 10250 2450 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q8
+L archive:Transistor_FET_IRLZ44N Q8
 U 1 1 5DFFF595
 P 10250 1700
 F 0 "Q8" H 9900 1900 50  0000 L CNN
@@ -3817,7 +3817,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 10250 1700 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q4
+L archive:Transistor_FET_IRLZ44N Q4
 U 1 1 5DFFF6A7
 P 10250 1000
 F 0 "Q4" H 9900 1200 50  0000 L CNN
@@ -3828,7 +3828,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 10250 1000 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q20
+L archive:Transistor_FET_IRLZ44N Q20
 U 1 1 5DFFF7BB
 P 10250 3850
 F 0 "Q20" H 9900 4050 50  0000 L CNN
@@ -3839,7 +3839,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 10250 3850 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q17
+L archive:Transistor_FET_IRLZ44N Q17
 U 1 1 5DFFFC30
 P 5300 3850
 F 0 "Q17" H 4950 4050 50  0000 L CNN
@@ -3850,7 +3850,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 5300 3850 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q21
+L archive:Transistor_FET_IRLZ44N Q21
 U 1 1 5DFFFD54
 P 5300 4550
 F 0 "Q21" H 4950 4750 50  0000 L CNN
@@ -3861,7 +3861,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 5300 4550 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q25
+L archive:Transistor_FET_IRLZ44N Q25
 U 1 1 5DFFFE6E
 P 5300 5250
 F 0 "Q25" H 4950 5450 50  0000 L CNN
@@ -3872,7 +3872,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 5300 5250 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q29
+L archive:Transistor_FET_IRLZ44N Q29
 U 1 1 5DFFFF8C
 P 5300 5950
 F 0 "Q29" H 4950 6150 50  0000 L CNN
@@ -3883,7 +3883,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 5300 5950 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q30
+L archive:Transistor_FET_IRLZ44N Q30
 U 1 1 5E0000AE
 P 6950 5950
 F 0 "Q30" H 6600 6150 50  0000 L CNN
@@ -3894,7 +3894,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 6950 5950 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q26
+L archive:Transistor_FET_IRLZ44N Q26
 U 1 1 5E0001F2
 P 6950 5250
 F 0 "Q26" H 6600 5450 50  0000 L CNN
@@ -3905,7 +3905,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 6950 5250 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q22
+L archive:Transistor_FET_IRLZ44N Q22
 U 1 1 5E000316
 P 6950 4550
 F 0 "Q22" H 6600 4750 50  0000 L CNN
@@ -3916,7 +3916,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 6950 4550 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q18
+L archive:Transistor_FET_IRLZ44N Q18
 U 1 1 5E00043A
 P 6950 3850
 F 0 "Q18" H 6600 4050 50  0000 L CNN
@@ -3927,7 +3927,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 6950 3850 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q23
+L archive:Transistor_FET_IRLZ44N Q23
 U 1 1 5E000566
 P 8600 4550
 F 0 "Q23" H 8250 4750 50  0000 L CNN
@@ -3938,7 +3938,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 8600 4550 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q27
+L archive:Transistor_FET_IRLZ44N Q27
 U 1 1 5E0006B2
 P 8600 5250
 F 0 "Q27" H 8250 5450 50  0000 L CNN
@@ -3949,7 +3949,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 8600 5250 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q24
+L archive:Transistor_FET_IRLZ44N Q24
 U 1 1 5E0007DC
 P 10250 4550
 F 0 "Q24" H 9900 4750 50  0000 L CNN
@@ -3960,7 +3960,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 10250 4550 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q28
+L archive:Transistor_FET_IRLZ44N Q28
 U 1 1 5E00095A
 P 10250 5250
 F 0 "Q28" H 9900 5450 50  0000 L CNN
@@ -3971,7 +3971,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 10250 5250 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q32
+L archive:Transistor_FET_IRLZ44N Q32
 U 1 1 5E000A86
 P 10250 5950
 F 0 "Q32" H 9900 6150 50  0000 L CNN
@@ -3982,7 +3982,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 10250 5950 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLZ44N Q31
+L archive:Transistor_FET_IRLZ44N Q31
 U 1 1 5E001056
 P 8600 5950
 F 0 "Q31" H 8250 6150 50  0000 L CNN
@@ -3993,7 +3993,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 8600 5950 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:L7805 U11
+L archive:Regulator_Linear_L7805 U11
 U 1 1 5E006ED3
 P 1400 2650
 F 0 "U11" H 1400 2892 50  0000 C CNN
@@ -4004,7 +4004,7 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x11 J1
+L archive:Connector_Generic_Conn_01x11 J1
 U 1 1 5E0095DB
 P 11000 1150
 F 0 "J1" H 10950 1750 50  0000 L CNN
@@ -4015,7 +4015,7 @@ F 3 "~" H 11000 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x11 J2
+L archive:Connector_Generic_Conn_01x11 J2
 U 1 1 5E00ABD8
 P 11000 2350
 F 0 "J2" H 10950 2950 50  0000 L CNN
@@ -4026,7 +4026,7 @@ F 3 "~" H 11000 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J3
+L archive:Connector_Generic_Conn_01x10 J3
 U 1 1 5E00EB71
 P 11000 3450
 F 0 "J3" H 10950 3950 50  0000 L CNN
@@ -4037,7 +4037,7 @@ F 3 "~" H 11000 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J4
+L archive:Connector_Generic_Conn_01x10 J4
 U 1 1 5E00ECD5
 P 11000 4750
 F 0 "J4" H 10950 5250 50  0000 L CNN
@@ -4048,7 +4048,7 @@ F 3 "~" H 11000 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J6
+L archive:Connector_Generic_Conn_01x04 J6
 U 1 1 5E010A8B
 P 11000 6000
 F 0 "J6" H 11000 6200 50  0000 C CNN
@@ -4059,7 +4059,7 @@ F 3 "~" H 11000 6000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint J8
+L archive:Connector_TestPoint J8
 U 1 1 5E0524BB
 P 1350 5250
 F 0 "J8" V 1350 5450 50  0000 L CNN
@@ -4070,7 +4070,7 @@ F 3 "~" H 1550 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint J9
+L archive:Connector_TestPoint J9
 U 1 1 5E053217
 P 1450 5250
 F 0 "J9" V 1450 5450 50  0000 L CNN
@@ -4081,7 +4081,7 @@ F 3 "~" H 1650 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint J10
+L archive:Connector_TestPoint J10
 U 1 1 5E053337
 P 1550 5250
 F 0 "J10" V 1550 5450 50  0000 L CNN
@@ -4092,7 +4092,7 @@ F 3 "~" H 1750 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint J11
+L archive:Connector_TestPoint J11
 U 1 1 5E053603
 P 1650 5250
 F 0 "J11" V 1650 5450 50  0000 L CNN
@@ -4103,7 +4103,7 @@ F 3 "~" H 1850 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J5
+L archive:Connector_Generic_Conn_01x03 J5
 U 1 1 5E058A1F
 P 4850 6950
 F 0 "J5" H 4769 6625 50  0000 C CNN
@@ -4130,7 +4130,7 @@ Wire Bus Line
 Wire Bus Line
 	3950 1100 3950 6450
 $Comp
-L arduinomini:ArduinoMini U9
+L archive:arduinomini_ArduinoMini U9
 U 1 1 5E09C012
 P 1600 6600
 F 0 "U9" H 1600 7587 60  0000 C CNN
