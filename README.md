@@ -1,11 +1,10 @@
 # 32ch DMX LED Strip Dimmer
 
-Arduino Mini and TLC4940 based 32 channel 12V PWM dimmer with [DMX51[DMX512](https://en.wikipedia.org/wiki/DMX512)2](https://en.wikipedia.org/wiki/DMX512) and [RDM](https://en.wikipedia.org/wiki/RDM_(lighting)) support.
+Arduino Mini and TLC4940 based 32 channel 12V PWM dimmer with [DMX512](https://en.wikipedia.org/wiki/DMX512) and [RDM](https://en.wikipedia.org/wiki/RDM_(lighting)) support.
 
 ## Table of contents
 * [Features](#features)
 * [Building and connecting the PCB](#building-and-connecting-the-pcb)
-* [Connecting the PCB](#connecting-the-pcb)
 * [Installing the Software](#installing-the-software)
 * [Setting the DMX channel](#setting-the-dmx-channel)
 * [Write your own Software](#write-your-own-software)
