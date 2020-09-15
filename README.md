@@ -35,7 +35,7 @@ Install the required libraries within the Arduino IDE
 * [tlc5940](https://github.com/PaulStoffregen/Tlc5940) Control of the two TLC5940 ICs
 * [dmxserial2](https://github.com/mathertel/DmxSerial2) Used to handle DMX and RDM decoding
 
-Open the Sketch with the Arduino IDE, change the DMX address if needed, select the correct serial port and Hardware (Arduino Pro Mini or Arduino Mini) and click Upload.
+Open the [Sketch](dmx_led_strip_dimmer_32ch.ino) with the Arduino IDE, change the DMX address if needed, select the correct serial port and Hardware (Arduino Pro Mini or Arduino Mini) and click Upload.
 
 ### Setting the DMX channel
 The DMX channel can be preset in the Arduino source code. Later, it can only be changed via RDM ([Remote Device Management](https://en.wikipedia.org/wiki/RDM_(lighting))) commands.
@@ -58,7 +58,7 @@ The PWM signals are created by two chained TLC5940 PWM LED drivers. Output 1-16 
 
 Unlisted pins are not connected. The internal voltage regulator on the Arduino Mini Board is not used.
 
-Take a look at the [schematic](https://schematic.pdf) too. It should clarify things further.
+Take a look at the [schematic](schematic.pdf) too. It should clarify things further.
 
 ## Contributing
 If you want to improve something, feel free to create a pull request.
@@ -67,9 +67,9 @@ One thing to optimize is the linear voltage regulator. Maybe someone is interest
 
 ## See also
 
-* [TLC5940 datasheet](https://datasheetoftlc5940)
-* [Wikipedia DMX512](https://wikidmx)
-* [Wikipedia RDM](http://wikirdm)
+* [TLC5940 datasheet](https://www.ti.com/lit/ds/symlink/tlc5940.pdf)
+* [Wikipedia DMX512](https://en.wikipedia.org/wiki/DMX512)
+* [Wikipedia RDM](https://en.wikipedia.org/wiki/RDM_(lighting))
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
