@@ -1,6 +1,6 @@
 # 32ch DMX LED Strip Dimmer
 
-Arduino Mini and TLC4940 based 32 channel 12V PWM dimmer with [DMX512](https://en.wikipedia.org/wiki/DMX512) and [RDM](https://en.wikipedia.org/wiki/RDM_(lighting)) support.
+Arduino Mini and TLC5940 based 32 channel 12V PWM dimmer with [DMX512](https://en.wikipedia.org/wiki/DMX512) and [RDM](https://en.wikipedia.org/wiki/RDM_(lighting)) support.
 
 ## Table of contents
 * [Features](#features)
@@ -52,7 +52,7 @@ The PWM signals are created by two chained TLC5940 PWM LED drivers. Output 1-16 
 |  2  | RS485 (DMX) Direction |
 |  3  | GSCLK (TLC5940)       |
 |  9  | XLAT (TLC5940)        |
-| 10  | BLANK (TLC5949)       |
+| 10  | BLANK (TLC5940)       |
 | 11  | SIN (TLC5940)         |
 | 13  | SCLK (TLC5940)        |
 
